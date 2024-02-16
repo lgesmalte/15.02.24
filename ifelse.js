@@ -3,12 +3,11 @@ function verificarLogin() {
     let txtsenha = document.getElementById('txtsenha');
 
     let login = "teste";
-    login = "teste2"
     let senha = "teste";
 
     if (txtLogin.value == login && txtsenha.value == senha) {
-        console.log("Logado com sucesso!")
+        console.log("Logado com sucesso!");
     } else {
-        console.log("Login ou senha incorretos! Digite e tente novamente.")
+        console.log("Login ou senha incorretos! Digite e tente novamente.");
     }
 }
